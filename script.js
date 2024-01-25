@@ -59,14 +59,14 @@ menu.addEventListener("click", function () {
 })
 }
 
-// var loader = document.querySelector("#loader")
-// function loaderAnimation() {
-//    setTimeout(function () {
-//        loader.style.top = "-100%"
-//    }, 4200)
-// }
+var loader = document.querySelector("#loader")
+function loaderAnimation() {
+   setTimeout(function () {
+       loader.style.top = "-100%"
+   }, 4200)
+}
 
 swiperAnimation()
 page4Animation()
-// menuAnimation()
-// loaderAnimation()
+menuAnimation()
+loaderAnimation()
